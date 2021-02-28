@@ -1,0 +1,64 @@
+.clients-block {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .clients-list {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: -15px;
+  }
+  
+  .clients-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #afb1b8;
+    margin: 15px;
+  
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  
+    & .clients-list-icon,
+    & .clients-list-icon {
+    fill: var(--accent-color);
+  }
+}
+}
+  .clients-list-icon {
+    fill: #afb1b8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .client-1 {
+    width: 44.27px;
+    height: 49.23px;
+  }
+  .client-2 {
+    width: 40px;
+    height: 52px;
+  }
+  .client-3 {
+    width: 41px;
+    height: 42.6px;
+  }
+  .client-4 {
+    width: 79.66;
+    height: 42.02px;
+  }
+  .client-5 {
+    width: 59px;
+    height: 47px;
+  }
+  .client-6 {
+    width: 88.48px;
+    height: 45.44px;
+  }

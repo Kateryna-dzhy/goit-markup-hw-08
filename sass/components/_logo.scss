@@ -1,0 +1,11 @@
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    @include font(26px, 700, 31px);
+    letter-spacing: 0.03em;
+  
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
+}
